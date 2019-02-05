@@ -1,0 +1,13 @@
+<div class="container text-center">
+  <h1>Where can you find us ?</h1>
+
+  <ul class="list-inline">
+    <% ["malibu", "ostuni", "santorin", "marrakech", "tokyo", "venise"].each do |city| %>
+      <li>
+        <img src="images/cities/<%= city %>.jpg" alt="" style="height: 200px;">
+        <h3><%= city.capitalize %></h3>
+      </li>
+    <% end %>
+  </ul>
+
+</div>
